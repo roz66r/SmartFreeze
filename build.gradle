@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.golu.smartfreeze'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.golu.smartfreeze'
+        minSdk 26
+        targetSdk 35
+        versionCode 45
+        versionName '45'
+    }
+}
+
+dependencies {
+    implementation 'dev.rikka.shizuku:api:13.1.5'
+    implementation 'dev.rikka.shizuku:provider:13.1.5'
+}
